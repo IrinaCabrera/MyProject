@@ -1,0 +1,88 @@
+/*doradito lindo: color: #937341*/
+/*fondito lindo: background-color: #0a0a0c;*/
+/*marroncito lindo: background-color: #171817;*/
+/*para contenedoes: background-color: #111318; border: 1px solid #31271e;*/
+
+/*FONDO Y FUENTE*/
+#fondoWEB{
+	background: url(../image/fondo2.jpg);
+	background-attachment: fixed;
+	background-size: 100%;
+}
+@font-face{
+	font-family: "Bebas";
+	src: url("../fonts/bebasneue-webfont.woff");
+}
+.fuente{
+	color: white;
+	font-family: "Bebas";
+}
+
+
+/*SOBRE EL MENU DE NAVEGACIÓN*/
+nav{
+	width: 100%;														/*ancho al 100%*/
+	background:-moz-linear-gradient(180deg, black, #2874a6);			/*degradé*/
+	position: fixed;													/*queda fijo*/
+	z-index: 10;														/*permite pasar sobre imagenes*/
+}
+nav ul{
+	margin: 0;				/*si no especifico esto, luego em afecta a los demás elementos de la barra*/
+	padding: 0;
+}
+nav ul li{
+	display: inline;													/*todos los items en una linea*/
+	float: left;													    /*items se alinean a la izquierda*/
+	margin: 1%;															/*distancia entre elementos*/
+}
+
+a{
+	font-size: 40px;													/*tamaño de fuente*/
+	text-decoration: none;												/*quita el efecto que viene por defecto*/
+}
+
+
+
+/*CONTENIDO*/
+article{
+	padding-top: 6%;
+}
+
+.contenido{
+	height: 500px;
+	width: 500px;
+	margin-left:15px;
+	border-style: dotted;
+	border-color:white;
+	padding: 0.5%;
+	background-color: rgba(0,0,0,0.6);
+}
+h1{
+	font-weight: bolder;
+	font-size: 70px;
+	text-align: center;
+	margin: 6%;
+}
+
+.lectura{
+	font-size: 18px;
+}
+.fondoDEF{
+	width: 1500px;
+	margin-left:15px;
+	border-style: solid;
+	border-color:white;
+	padding: 0.5%;
+	margin-bottom: 2%;
+
+}
+#yasuo{
+	background: url(../image/yasuoyasuoyasuo.jpg);
+	background-size: 100%;
+}
+#yone{
+	background: url(../image/yoneyoneyone.jpg);
+	background-size: 100%;
+}
+/*ASIDE*/
+/*FOOTER*/
